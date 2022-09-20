@@ -1,0 +1,33 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='pysimplecrawler',
+    version='1.0.0',
+    license='MIT',
+    author="Benyamin Kosari",
+    author_email='benyaminusc@gmail.com',
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
+    url='https://github.com/benyaminkosari/pysimplecrawler',
+    keywords='pysimplecrawler python simple crawler',
+    install_requires=[
+          'aiohttp==3.8.1',
+          'aiosignal==1.2.0',
+          'asgiref==3.5.2',
+          'async-timeout==4.0.2',
+          'attrs==22.1.0',
+          'beautifulsoup4==4.11.1',
+          'bs4==0.0.1',
+          'cchardet==2.1.7',
+          'certifi==2022.9.14',
+          'charset-normalizer==2.1.1',
+          'frozenlist==1.3.1',
+          'idna==3.4',
+          'lxml==4.9.1',
+          'multidict==6.0.2',
+          'requests==2.28.1',
+          'soupsieve==2.3.2.post1',
+          'urllib3==1.26.12',
+          'yarl==1.8.1',
+      ],
+)
